@@ -1,0 +1,38 @@
+.section {
+    margin-bottom: 160px;
+}
+.image {
+    object-fit: cover;
+    width: 100%;
+    max-height: 640px;
+}
+.wraper {
+
+}
+.topic {
+    font-weight: 800;
+    font-size: 22px;
+    color: #B7B7B7;
+    text-align: center;
+    margin: 72px 0 24px;
+}
+
+
+@media screen and (max-width:850px) {
+    .section {
+        margin-bottom: 88px;
+    }
+    .topic {
+        margin-top: 80px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .section {
+        margin-bottom: 60px;
+    }
+    .topic {
+        margin-top: 41px;
+    }
+}

@@ -1,0 +1,124 @@
+.section {
+    padding: 0 20px;
+}
+.title {
+    max-width: 861px;
+}
+.subtitle {
+    max-width: 744px;
+    margin: 24px auto 72px;
+}
+.cardPC {
+    background: #393942 !important;
+}
+.cardAndroid {
+    background: #79109D !important;
+}
+.cardServerGames {
+    background: linear-gradient(106.82deg, rgba(73, 49, 71, 0.1) 8.44%, rgba(222, 62, 198, 0.1) 33.22%, rgba(128, 43, 179, 0.1) 54.01%, rgba(55, 63, 204, 0.1) 69.05%, rgba(29, 66, 162, 0.1) 93.38%) !important;
+
+    &:hover .serverGamesImage {
+        top: 80px;
+        right: -14px;
+    }
+}
+.CardPopularGames{
+    background-color: #393942 !important;
+    &:hover .popularGamesImage {
+        transform: scale(105%);
+    }
+}
+.cardCommunity {
+    background: linear-gradient(133deg, rgba(44,44,85,0.55) 0%, rgba(9,9,121,0.55) 35%, rgba(128,43,179,0.55) 77%, rgba(55,63,204,0.55) 100%) !important;
+}
+.computersImage {
+    position: absolute;
+    left: 40px;
+    top: 240px;
+    width: 100%;
+}
+.phonesImage {
+    position: absolute;
+    top: 165px;
+    right: 15px;
+}
+.serverGamesImage {
+    position: absolute;
+    top: 93px;
+    right: 0;
+    width: 721px;
+}
+.popularGamesImage {
+    background-image: url(../../../../asets/images/home/popular-game.png);
+    width: 83.3%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 400ms ease-in-out;
+    background-size: cover;
+}
+.communityImage {
+    position: absolute;
+    bottom: 0;
+    right: -17px;
+    width: 650px;
+}
+
+
+
+
+
+
+@media screen and (max-width:850px) {
+    .title {
+        max-width: 450px;
+    }
+    .subtitle {
+        max-width: 490px;
+    }
+    .computersImage {
+        top: 165px;
+        left: 30px;
+    }
+    .phonesImage {
+        width: 190px;
+        top: 135px;
+    }
+    .serverGamesImage {
+        width: 71%;
+        left: 29%;
+        top: 67px;
+    }
+    .communityImage {
+        max-width: 63%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .computersImage {
+        top: 220px;
+    }
+    .phonesImage {
+        width: 215px;
+        top: 165px;
+    }
+    .serverGamesImage {
+        width: 95%;
+        position: static;
+        margin-left: 2.5%;
+        margin-top: 127px;
+    }
+    .popularGamesImage {
+        background-image: url(../../../../asets/images/home/popular-game-phone.png);
+        width: 100%;
+        height: 285px;
+        top: auto;
+    }
+    .communityImage {
+        max-width: 100%;
+        right: auto;
+        left: 0;
+        max-height: 280px;
+    }
+}

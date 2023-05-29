@@ -1,0 +1,72 @@
+.section {
+    margin: 190px 0 0;
+    padding: 0 20px;
+}
+.subtitle {
+    margin-bottom: 72px;
+}
+.cardInstagram {
+    background: linear-gradient(133deg, rgba(73,49,71,0.5) 0%, rgba(168,35,76,0.5) 23%, rgba(29,25,25,0.5) 48%, rgba(52,62,140,0.5) 71%, rgba(46,47,51,0.5) 100%) !important;
+}
+.cardICQ {
+    background: linear-gradient(133deg, rgba(57,167,121,0.5) 0%, rgba(105,60,131,0.5) 28%, rgba(147,67,135,0.5) 48%, rgba(60,66,115,0.5) 78%, rgba(66,53,65,0.5) 100%) !important;
+}
+.instagramLogo, .ISQLogo {
+    width: 247px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 18px;
+}
+.instagramLogo {
+    background-image: url(../../../../asets/images/social-icons/logoinsta.png);
+}
+.ISQLogo {
+    background-image: url(../../../../asets/images/social-icons/isq-logo.png);
+}
+.instagramPhonesImage {
+    position: absolute;
+    width: 80%;
+    top: 225px;
+    left: 10%;
+}
+.isqPhoneImage {
+    position: absolute;
+    width: 210px;
+    max-width: 50%;
+    bottom: 0;
+    right: 30px;
+}
+
+
+@media screen and (max-width:1009px) {
+    .section {
+        margin-top: 85px;
+    }
+}
+@media screen and (max-width:850px) {
+    .section {
+        margin-top: 120px;
+    }
+    .isqPhoneImage {
+        width: 135px;
+    }
+    @media screen and (min-width:480px) {
+        .instagramPhonesImage {
+            width: 65%;
+            top: 175px;
+            left: 17.5%;
+        }
+    }
+}
+@media screen and (max-width:700px) {
+    .instagramLogo, .ISQLogo {
+        width: 169px;
+        height: 48px;
+        margin-bottom: 12px;
+    }
+    .isqPhoneImage {
+        width: 200px;
+        right: 20px;
+    }
+}

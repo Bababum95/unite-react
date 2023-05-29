@@ -1,0 +1,50 @@
+.label {
+    font-weight: 500;
+    height: 36px;
+    font-size: 16px;
+    letter-spacing: -0.015em;
+    color: #A2A2A2;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    p {
+        margin: 0;
+    }
+}
+
+.input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.span {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #4E4C57;
+    margin-right: 14px;
+    background: #34323C;
+    display: inline-block;
+}
+
+.span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 6px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
+}
+
+.span:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+.input:checked~.span:after {
+    display: block;
+}

@@ -1,0 +1,33 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.title {
+    margin-bottom: 72px !important;
+}
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 35px;
+    margin: 0 0 72px;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:1070px) {
+    .title {
+        margin-bottom: 60px !important;
+    }
+    .list {
+        gap: 32px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+}

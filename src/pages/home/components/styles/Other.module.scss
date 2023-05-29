@@ -1,0 +1,67 @@
+.section {
+    padding: 0 20px;
+    margin-top: 180px;
+}
+.subtitle {
+    margin-bottom: 72px !important;
+}
+.card {
+    background: linear-gradient(133deg, rgba(44,44,85,0.5) 0%, rgba(9,9,121,0.5) 35%, rgba(128,43,179,0.5) 77%, rgba(55,63,204,0.5) 100%) !important;
+}
+.buyGamesImage {
+    position: absolute;
+    top: 130px;
+    right: 90px;
+}
+.partnersImage {
+    position: absolute;
+    top: 65px;
+    right: 30px;
+}
+.steamImage {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+@media screen and (max-width:850px) {
+    .buyGamesImage {
+        top: 105px;
+        right: 70px;
+        width: 320px;
+    }
+    .partnersImage {
+        width: 330px;
+        right: 30px;
+    }
+    .steamImage {
+        width: 355px;
+        top: 60px;
+        right: 50px;
+    }
+}
+@media screen and (max-width:700px) {
+    .section {
+        margin-top: 98px;
+    }
+    .subtitle {
+        margin-bottom: 67px !important;
+    }
+    .buyGamesImage {
+        position: static;
+        width: 80%;
+        margin: 50px 10% 0;
+    }
+    .partnersImage {
+        position: static;
+        width: 90%;
+        max-width: 335px;
+        margin: 50px 10% 0;
+    }
+    .steamImage {
+        position: static;
+        width: 100%;
+        max-width: 360px;
+        margin: 50px 0 0 3%;
+    }
+}

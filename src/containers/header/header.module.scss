@@ -1,0 +1,326 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    z-index: 10;
+
+    &__wraper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        max-width: 1000px;
+        margin: auto;
+        height: 100%;
+
+    }
+    &__logo {
+        width: 76px;
+        height: 48px;
+        margin-right: 15px;
+        position: relative;
+        z-index: 3;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(34, 34, 40, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        z-index: 2;
+    }
+
+
+    &__menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+
+        & li {
+            position: relative;
+        }
+
+        & div {
+            padding-top: 43px;
+            position: absolute;
+            z-index: 3;
+            top: 23px;
+            left: 0;
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 300ms ease-in-out;
+        }
+    }
+
+    &__link {
+        display: block;
+        text-decoration-line: none;
+        margin: 0;
+        color: #fff;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: -0.005em;
+        padding: 10px;
+        box-sizing: border-box;
+        z-index: 3;
+        position: relative;
+        cursor: pointer;
+
+        &_home {
+            display: none;
+        }
+
+        &:hover {
+            background: #18181B;
+            border-radius: 10px;
+        }
+    }
+
+    &__submenu {
+        margin: 0;
+        list-style: none;
+        background: #2F2F32;
+        border-radius: 20px;
+        width: 185px;
+        height: 186px;
+        padding: 21px 17px;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 14px;
+        display: flex;
+    }
+
+    &__sublink {
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: -0.005em;
+        color: #D2D2D2;
+        text-decoration-line: none;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &__button {
+        padding: 8px 20px !important;
+    }
+
+    &__signBtn {
+        display: none;
+
+        &_phone {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__burger {
+        background-image: url(../../asets/images/btnmenu.png);
+        width: 32px;
+        height: 32px;
+        border: 0;
+        border-radius: 10px;
+        background-color: #79109D;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: none;
+        z-index: 3;
+        transition: all 500ms ease-in-out;
+    }
+
+    &__arow {
+        background-image: url(../../asets/images/arow.svg);
+        height: 20px;
+        width: 20px;
+        position: relative;
+        z-index: 3;
+        background-position: center;
+        display: none;
+        background-repeat: no-repeat;
+    }
+
+    &__lang {
+        border: 0;
+        color: #fff;
+        margin: 0 55px 0 45px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        background: transparent;
+        z-index: 3;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1040px) {
+    .header {
+        &__link {
+            font-size: 13px;
+            padding: 8px;
+        }
+
+        &__lang {
+            margin: 0 10px 0 0;
+            font-size: 14px;
+        }
+
+        &__logo {
+            margin: 0;
+        }
+
+    }
+}
+
+@media screen and (min-width:851px) {
+    .header {
+        &__signBtn {
+            display: block;
+
+            &_phone {
+                display: none;
+            }
+        }
+
+        &__menu li:hover div {
+            max-height: 300px;
+        }
+    }
+}
+
+@media screen and (max-width:850px) {
+    .header {
+        height: 55px;
+        justify-content: space-between;
+
+        &__menu {
+            display: block;
+
+            & li {
+                & div {
+                    position: relative;
+                    top: 0;
+                    padding: 0;
+                    max-height: fit-content;
+                    animation: hidden 0.5s forwards;
+                }
+
+                &.active {
+                    & div {
+                        animation: show 1s forwards;
+                    }
+
+                    & .header__arow {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+
+        &__submenu {
+            width: 100%;
+            height: auto;
+            padding: 0 0 14px;
+            background: #18181B;
+        }
+
+        &__list {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            left: 0;
+            top: -100%;
+            width: 100%;
+            height: 100%;
+            background: #18181B;
+            padding: 95px 33px 32px 37px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            transition: all 500ms ease-in-out;
+
+            &.active {
+                top: 0;
+            }
+        }
+
+        &__link {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 16px;
+            padding: 0;
+            margin-bottom: 20px;
+
+            &_home {
+                display: block;
+                text-decoration-line: none;
+                color: #fff;
+                font-weight: 800;
+                font-size: 20px;
+                letter-spacing: -0.005em;
+                margin-bottom: 27px;
+            }
+        }
+
+        &__sublink {
+            display: block;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        &__burger {
+            display: block;
+
+            &.active {
+                background-image: url(../../asets/images/close-small.svg);
+                background-color: #fff;
+            }
+        }
+
+        &__arow {
+            display: block;
+        }
+
+        &__lang {
+            display: none;
+        }
+    }
+}
+
+@keyframes show {
+    from {
+        max-height: 0;
+    }
+
+    to {
+        max-height: 300px;
+    }
+}
+
+@keyframes hidden {
+    from {
+        max-height: 300px;
+    }
+
+    to {
+        max-height: 0;
+    }
+}

@@ -1,0 +1,34 @@
+.button {
+    background: #79109D;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    border: 0;
+    font-family: 'Manrope', sans-serif;
+    z-index: 3;
+    position: relative;
+    padding: 13px 40px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #9F2EC7;
+}
+.button_white {
+    background: #FFFFFF;
+    color: #18181B;
+}
+.button_grey {
+    background: #34323C;
+    color: #A2A2A2;
+}
+.button_white:hover {
+    background: #393942;
+    color: #fff;
+}
+.button_grey:hover {
+    color: #fff;
+    background: #34323C;
+}
