@@ -15,6 +15,7 @@ const NewsPost = () => {
     const [image, setImage] = useState()
     useEffect(() => {
         const fetchPost = async () => {
+            setNews(undefined)
             if (id) {
                 const data = await UniteService.getPost(id)
                 const postImage = await UniteService.getImage(data.featured_media)
@@ -26,7 +27,6 @@ const NewsPost = () => {
     }, [id])
     return (
         <Body>
-            <main>
                 {news ? (
                     <section className={styles.section}>
                         <img className={styles.image} src={image} alt={news.title.rendered} />
@@ -42,7 +42,6 @@ const NewsPost = () => {
                 )}
                 <News />
                 <StartGame />
-            </main>
         </Body>
     )
 }

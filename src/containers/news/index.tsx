@@ -6,6 +6,7 @@ import Button from '../../components/ui/Button';
 import Title from '../../components/ui/Title'
 import NewsCard from './NewsCard';
 import styles from './styles/News.module.scss';
+import SceletoneCard from '../../components/ui/sceletone/SceletoneCard';
 
 const News = () => {
     const [threeNews, setThreeNews] = useState<INews[]>()
@@ -20,15 +21,21 @@ const News = () => {
         <section className={styles.section}>
             <Title style={styles.title} text='Новости и мероприятия' />
             <ul className={styles.list}>
-                {threeNews && threeNews.map(news => (
+                {threeNews ? threeNews.map(news => (
                     <NewsCard
-                    key={news.id}
-                    id={news.id}
-                    imageId={news.featured_media}
-                    title={news.title.rendered}
-                    time={news.date}
-                    topic={news.teg} />
-                ))}
+                        key={news.id}
+                        id={news.id}
+                        imageId={news.featured_media}
+                        title={news.title.rendered}
+                        time={news.date}
+                        topic={news.teg} />
+                )) : (
+                    <>
+                        <SceletoneCard />
+                        <SceletoneCard />
+                        <SceletoneCard />
+                    </>
+                )}
             </ul>
             <Link to='/news'>
                 <Button title='Все новости' />

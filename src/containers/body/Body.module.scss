@@ -1,0 +1,16 @@
+.body {
+    padding-top: 70px;
+    background-color: #18181B;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    & a {
+        text-decoration-line: none;
+    }
+}
+
+.main {
+    flex: 1;
+}
