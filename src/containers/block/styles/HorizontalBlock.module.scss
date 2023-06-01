@@ -32,10 +32,10 @@
 }
 
 @media (any-hover: hover) {
-    .card:hover img {
+    .card a:hover img {
         transform: scale(105%);
     }
-    .card:hover .link {
+    .card a:hover .link {
         color: #393942;
         background-color: #fff;
     }

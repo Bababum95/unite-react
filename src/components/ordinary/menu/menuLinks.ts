@@ -3,11 +3,11 @@ import { ImenuList } from "./interfaces";
 export const menulinks: ImenuList = {
     ourProducts: [
         {
-            path: '/',
+            path: '/launcheer-for-pc',
             ru: 'Launcher для PC'
         },
         {
-            path: '/',
+            path: '/launcheer-for-android',
             ru: 'Launcher для Android'
         },
         {

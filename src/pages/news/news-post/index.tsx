@@ -27,7 +27,7 @@ const NewsPost = () => {
     }, [id])
     return (
         <Body>
-                {news ? (
+                {news && image ? (
                     <section className={styles.section}>
                         <img className={styles.image} src={image} alt={news.title.rendered} />
                         <div className={styles.wraper}>

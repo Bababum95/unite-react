@@ -1,0 +1,21 @@
+.suport__title {
+    font-weight: 800;
+    font-size: 38px;
+    letter-spacing: -0.015em;
+    margin: 80px 0 0 38px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width:850px) {
+    .suport__title {
+        font-size: 28px;
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .suport__title {
+        margin: 32px 0 0 24px;
+    }
+}

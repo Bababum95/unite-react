@@ -1,0 +1,28 @@
+.card__img_launcher {
+    margin-right: 53px;
+    align-self: flex-end;
+}
+
+@media screen and (min-width:850px) {
+    .card__img_launcher {
+        width: 470px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .card__img_launcher {
+        position: absolute;
+        bottom: 0;
+        right: 41px;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .card__img_launcher {
+        width: 337px;
+        right: 13px;
+    }
+}

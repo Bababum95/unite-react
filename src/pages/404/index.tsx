@@ -5,7 +5,6 @@ import image from '../../asets/images/404.png'
 import styles from './NotFound.module.scss';
 import Heading from '../../components/simple/heading';
 
-
 const NotFound = () => {
     return (
         <Body>

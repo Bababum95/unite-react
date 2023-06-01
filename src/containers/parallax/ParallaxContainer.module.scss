@@ -1,0 +1,482 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left,
+.right {
+    width: 325px;
+    height: 600px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.game-icon__container {
+    width: 325px;
+    height: 600px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+.left{
+    .item {
+        &:first-of-type {
+            width: 95px;
+            height: 95px;
+            left: 106px;
+            top: 35px;
+            background-color: #fff;
+            background-image: url(../../asets/images/game-icon/CSGO-Logo.png);
+            border-radius: 15px;
+        }
+        &:nth-child(2) {
+            width: 75px;
+            height: 75px;
+            right: 0;
+            top: 0px;
+            background-color: #FFF170;
+            border-radius: 12px;
+            background-image: url(../../asets/images/game-icon/callofduty.png);
+        }
+        &:nth-child(3) {
+            background-color: #fff;
+            background-image: url(../../asets/images/game-icon/panda.png);
+            width: 145px;
+            height: 145px;
+            border-radius: 22px;
+            left: 130px;
+            top: 330px;
+        }
+        &:nth-child(4) {
+            width: 88px;
+            height: 88px;
+            left: -14.5px;
+            top: 160px;
+            background-color: #FFFFFF;
+            background-image: url(../../asets/images/game-icon/garrysmod.png);
+            border-radius: 14px;
+        }
+        &:nth-child(5) {
+            width: 60px;
+            height: 60px;
+            left: 114.5px;
+            top: 700px;
+            background-color: #D9D9D9;
+            background-image: url(../../asets/images/game-icon/factory.png);
+            border-radius: 9px;
+        }
+        &:nth-child(6) {
+            width: 88px;
+            height: 88px;
+            right: -30px;
+            bottom: 100px;
+            background-color: #FF6E6E;
+            background-image: url(../../asets/images/game-icon/rust.png);
+            border-radius: 14px;
+        }
+        &:nth-child(7) {
+            width: 95px;
+            height: 95px;
+            left: 200px;
+            background-color: #FFFFFF;
+            background-image: url(../../asets/images/game-icon/warcraft.png);
+            border-radius: 15px;
+            top: 630px;
+        }
+        &:nth-child(8) {
+            width: 145px;
+            height: 145px;
+            left: -69.5px;
+            bottom: 50px;
+            background-color: #FFFFFF;
+            background-image: url(../../asets/images/game-icon/left-4-dead-2.png);
+            border-radius: 22px;
+        }
+        
+    }
+}
+.right {
+    .item {
+        &:first-of-type {
+            width: 58px;
+            height: 58px;
+            left: 120px;
+            top: 40px;
+            background-color: #D1DCEB;
+            background-image: url(../../asets/images/game-icon/portal.png);
+            border-radius: 9px;
+        }
+        &:nth-of-type(2) {
+            width: 85px;
+            height: 85px;
+            right: -7.5px;
+            top: 300px;
+            background-color: #FFF170;
+            background-image: url(../../asets/images/game-icon/7days.png);
+            border-radius: 13px;
+        }
+        &:nth-of-type(3) {
+            width: 75px;
+            height: 75px;
+            left: 0;
+            bottom: 50px;
+            background-color: #414141;
+            background-image: url(../../asets/images/game-icon/forest.png);
+            border-radius: 12px;
+        }
+        &:nth-of-type(4) {
+            width: 138px;
+            height: 138px;
+            right: 56.5px;
+            bottom: -280px;
+            background-color: #FFFFFF;
+            background-image: url(../../asets/images/game-icon/gtasa.png);
+            border-radius: 21px;
+        }
+        &:nth-of-type(5) {
+            width: 90px;
+            height: 90px;
+            left: 130px;
+            top: 330px;
+            background-color: #2C84B5;
+            background-image: url(../../asets/images/game-icon/gta5.png);
+            border-radius: 14px;
+        }
+        &:nth-of-type(6) {
+            width: 85px;
+            height: 85px;
+            left: 0;
+            top: 169px;
+            background-color: #FF6F6F;
+            background-image: url(../../asets/images/game-icon/Minecraft-Logo-tumb.png);
+            border-radius: 13px;
+        }
+        &:nth-of-type(7) {
+            width: 137.27px;
+            height: 138px;
+            right: -69.5px;
+            top: 0;
+            background-color: #FFFFFF;
+            background-image: url(../../asets/images/game-icon/Pubg.png);
+            border-radius: 21px;
+        }
+        &:nth-of-type(8) {
+            width: 58px;
+            height: 58px;
+            bottom: 124px;
+            right: -48.5px;
+            border-radius: 9px;
+            background-image: url(../../asets/images/game-icon/bomb.png);
+        }
+        &:nth-of-type(9) {
+            width: 90px;
+            height: 90px;
+            right: 128.5px;
+            bottom: 100px;
+            background-color: #FFFFFF;
+            border-radius: 14px;
+            background-image: url(../../asets/images/game-icon/warcraft3.png);
+        }
+    }
+}
+
+
+@media screen and (min-width:1600px) {
+    .left,
+    .right {
+            width: 450px;
+    }
+    .left {
+        .item {
+            &:first-of-type {
+                left: 155px;
+            }
+            &:nth-child(3) {
+                left: 240px;
+            }
+            &:nth-child(4) {
+                left: 40px;
+            }
+            &:nth-child(5) {
+                left: 200px;
+            }
+            &:nth-child(7) {
+                left: 300px;
+            }
+            &:nth-child(8) {
+                left: 0;
+            }
+        }
+    }
+    .right {
+        .item {
+            &:nth-of-type(2) {
+                right: 80px;
+            }
+            &:nth-of-type(4) {
+                right: 152px;
+            }
+            &:nth-of-type(7) {
+                right: 17px;
+            }
+            &:nth-of-type(8) {
+                right: 32px;
+            }
+            &:nth-of-type(9) {
+                right: 234px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1300px) {
+    .left {
+        margin-left: calc((100vw - 1300px) / 2);
+    }
+    .right {
+        margin-right: calc((100vw - 1300px) / 2);
+    }
+}
+@media screen and (max-width:1000px) {
+    .left {
+        margin-left: -150px;
+    }
+    .right {
+        margin-right: -150px;
+    }
+}
+@media screen and (min-width:850px) {
+    .phone {
+        display: none;
+    }
+}
+@media screen and (max-width:850px) {
+    .section {
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        display: none;
+    }
+    .phone {
+        position: relative;
+        width: 100vw;
+        height: 670px;
+
+        .item{
+            &:nth-of-type(1) {
+                width: 88px;
+                height: 88px;
+                background-color: #FF6E6E;
+                background-image: url(../../asets/images/game-icon/rust.png);
+                border-radius: 14px;
+                top: 582px;
+                right: 10%;
+            }
+            &:nth-of-type(2) {
+                width: 145px;
+                height: 145px;
+                background-color: #FFFFFF;
+                background-image: url(../../asets/images/game-icon/left-4-dead-2.png);
+                border-radius: 22px;
+                top: 375px;
+                right: -12px;
+            }
+            &:nth-of-type(3) {
+                background-color: #fff;
+                background-image: url(../../asets/images/game-icon/panda.png);
+                border-radius: 22px;
+                top: 172px;
+                right: 9%;
+                width: 160px;
+                height: 160px;
+                background-size: 135px;
+            }
+            &:nth-of-type(4) {
+                width: 88px;
+                height: 88px;
+                background-color: #FFFFFF;
+                background-image: url(../../asets/images/game-icon/garrysmod.png);
+                border-radius: 14px;
+                top: 490px;
+                right: 26%;
+            }
+            &:nth-of-type(5) {
+                width: 90px;
+                height: 90px;
+                background-color: #2C84B5;
+                background-image: url(../../asets/images/game-icon/gta5.png);
+                border-radius: 14px;
+                top: 185px;
+                left: 9%;
+            }
+            &:nth-of-type(6) {
+                width: 137.27px;
+                height: 138px;
+                background-color: #FFFFFF;
+                background-image: url(../../asets/images/game-icon/Pubg.png);
+                border-radius: 21px;
+                top: 132px;
+                right: 45%;
+            }
+            &:nth-of-type(7) {
+                width: 58px;
+                height: 58px;
+                background-color: #D1DCEB;
+                background-image: url(../../asets/images/game-icon/portal.png);
+                border-radius: 9px;
+                top: 333px;
+                left: 19%;
+            }
+            &:nth-of-type(8) {
+                width: 85px;
+                height: 85px;
+                background-color: #FF6F6F;
+                background-image: url(../../asets/images/game-icon/Minecraft-Logo-tumb.png);
+                border-radius: 13px;
+                top: 354px;
+                left: -18px;
+            }
+            &:nth-of-type(9) {
+                width: 85px;
+                height: 85px;
+                background-color: #FFF170;
+                background-image: url(../../asets/images/game-icon/7days.png);
+                border-radius: 13px;
+                top: 340px;
+                right: 32%;
+            }
+            &:nth-of-type(10) {
+                width: 90px;
+                height: 90px;
+                background-color: #FFFFFF;
+                border-radius: 14px;
+                background-image: url(../../asets/images/game-icon/warcraft3.png);
+                top: 380px;
+                right: 52%;
+            }
+            &:nth-of-type(11) {
+                width: 75px;
+                height: 75px;
+                background-color: #414141;
+                background-image: url(../../asets/images/game-icon/forest.png);
+                border-radius: 12px;
+                top: 531px;
+                right: 46%;
+            }
+            &:nth-of-type(12) {
+                width: 138px;
+                height: 138px;
+                background-color: #FFFFFF;
+                background-image: url(../../asets/images/game-icon/gtasa.png);
+                border-radius: 21px;
+                top: 487px;
+                left: 7%;
+            }
+        }
+    }
+    @media screen and (min-width:700px) {
+        .phone {
+            .item {
+                &:nth-of-type(5) {
+                    width: 113.5px;
+                    background-size: 76px;
+                    height: 113.5px;
+                }
+                &:nth-of-type(6) {
+                    background-size: 119px;
+                    width: 173px;
+                    height: 173px;
+                }
+                &:nth-of-type(7) {
+                    width: 73px;
+                    height: 73px;
+                    background-size: 66px;
+                }
+                &:nth-of-type(8) {
+                    background-size: 85px;
+                    width: 107px;
+                    height: 107px;
+                }
+                &:nth-of-type(9) {
+                    width: 107px;
+                    background-size: 101px;
+                    height: 107px;
+                }
+                &:nth-of-type(10) {
+                    background-size: 90px;
+                    width: 113px;
+                    height: 113px;
+                }
+                &:nth-of-type(11) {
+                    width: 94.5px;
+                    height: 94.5px;
+                    background-size: 84px;
+                }
+                &:nth-of-type(12) {
+                    width: 174px;
+                    background-size: 153px;
+                    height: 174px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .phone {
+        height: 496px;
+        .item {
+            &:nth-of-type(1),
+            &:nth-of-type(2),
+            &:nth-of-type(3),
+            &:nth-of-type(4) {
+                display: none;
+            }
+            &:nth-of-type(5) {
+                top: 118px;
+                left: 11%;
+            }
+            &:nth-of-type(6) {
+                top: 76px;
+                right: 9%;
+            }
+            &:nth-of-type(7) {
+                top: 236px;
+                left: 30%;
+            }
+            &:nth-of-type(8) {
+                top: 252px;
+                left: -18px;
+            }
+            &:nth-of-type(9) {
+                top: 241px;
+                right: -35px;
+            }
+            &:nth-of-type(10) {
+                top: 273px;
+                right: 22%;
+            }
+            &:nth-of-type(11) {
+                top: 393px;
+                right: 14%;
+            }
+            &:nth-of-type(12) {
+                top: 358px;
+                left: 9%;
+            }
+        }
+    }
+}

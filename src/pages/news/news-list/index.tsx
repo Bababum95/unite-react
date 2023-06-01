@@ -5,7 +5,7 @@ import styles from './NewsList.module.scss';
 import Body from "../../../containers/body"
 import StartGame from "../../../components/simple/start-game"
 import Title from '../../../components/ui/Title';
-import NewsCard from '../../../containers/news/NewsCard';
+import Card from '../../../components/simple/card';
 import Button from '../../../components/ui/Button';
 import Subheading from '../../../components/ui/Subheading';
 import GridContainer from '../../../containers/grid-container';
@@ -41,9 +41,10 @@ const NewsList = () => {
                 <GridContainer style={styles.list}>
                     <>
                         {newsList ? newsList.map(news => (
-                            <NewsCard
+                            <Card
                                 key={news.id}
                                 id={news.id}
+                                link={`/news/${news.id}`}
                                 imageId={news.featured_media}
                                 title={news.title.rendered}
                                 time={news.date}

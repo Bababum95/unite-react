@@ -4,8 +4,8 @@ import { UniteService } from '../../core/services/unite.service'
 import { INews } from '../../core/interfaces/interfaces'
 import Button from '../../components/ui/Button';
 import Title from '../../components/ui/Title'
-import NewsCard from './NewsCard';
-import styles from './styles/News.module.scss';
+import Card from '../../components/simple/card';
+import styles from './News.module.scss';
 import SceletoneCard from '../../components/ui/sceletone/SceletoneCard';
 
 const News = () => {
@@ -22,9 +22,10 @@ const News = () => {
             <Title style={styles.title} text='Новости и мероприятия' />
             <ul className={styles.list}>
                 {threeNews ? threeNews.map(news => (
-                    <NewsCard
+                    <Card
                         key={news.id}
                         id={news.id}
+                        link={`/news/${news.id}`}
                         imageId={news.featured_media}
                         title={news.title.rendered}
                         time={news.date}

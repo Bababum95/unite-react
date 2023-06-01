@@ -6,7 +6,7 @@ interface ButtonProps {
     loading?: boolean
     title: string
     handleClick?: Function
-  }
+}
 
 const Button = ({title, classes, handleClick, loading }: ButtonProps) => {
     const buttonClases = classNames(classes, styles.button, {[styles.load]: loading})

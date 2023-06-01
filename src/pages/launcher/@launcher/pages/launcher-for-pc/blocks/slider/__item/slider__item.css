@@ -1,0 +1,27 @@
+.slider__item {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__item img {
+    border-radius: 36px;
+    width: 300px;
+    height: 520px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:850px) {
+    .slider__item img {
+        width: 227px;
+        height: 394px;
+        border-radius: 27px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .slider__item img {
+        width: 187px;
+        height: 324px;
+        border-radius: 22px;
+    }
+}

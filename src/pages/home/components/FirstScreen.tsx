@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import Logo from "../../../components/ui/Logo"
 import Button from "../../../components/ui/Button"
 import previewImage from '../../../asets/images/home/spider-man.jpg'
-import Android from "../../../components/svg/Android";
-import Windows from "../../../components/svg/Windows";
+import Android from "../../../components/svg/Windows";
+import Windows from "../../../components/svg/Android";
 import styles from './styles/FirstScreen.module.scss';
 
 const FirstScreen = () => {

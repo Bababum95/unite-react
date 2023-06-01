@@ -1,10 +1,11 @@
 import styles from './styles/Industry.module.scss';
 import Heading from "../../../components/simple/heading"
+import ParalaxContainer from '../../../containers/parallax';
 
 const Industry = () => {
     return (
-        <section className="section">
-            <div className="container">
+        <ParalaxContainer>
+            <div className={styles.container}>
                 <Heading
                     text={{
                         title: 'Вместе развиваем игровую индустрию!',
@@ -15,7 +16,7 @@ const Industry = () => {
                         subtitle: styles.subtitle
                     }} />
             </div>
-        </section>
+            </ParalaxContainer>
     )
 }
 

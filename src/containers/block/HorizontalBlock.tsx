@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import TextArea from './TextArea'
 
 interface HorizontalBlockProps {
-    style: string
+    style?: string
     children?: JSX.Element[] | JSX.Element
     text: {
         title: string

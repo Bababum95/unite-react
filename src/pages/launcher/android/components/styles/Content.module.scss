@@ -1,0 +1,65 @@
+.section {
+    padding: 0 20px;
+    margin-top: 71px;
+}
+.card {
+    height: 475px !important;
+}
+.howWorckImage {
+    position: absolute;
+    right: 53px;
+    bottom: 0;
+}
+.gamesCollectinImage {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.serverGamesImage {
+    position: absolute;
+    top: 43px;
+    right: -5px;
+}
+
+@media screen and (max-width: 850px) {
+    .card {
+        height: 450px !important;
+    }
+    .howWorckImage {
+        right: 25px;
+        width: 470px;
+    }
+    .gamesCollectinImage {
+        width: 320px;
+        top: 140px;
+        left: 15px;
+    }
+    .serverGamesImage {
+        width: 480px;
+        top: 50px;
+        right: -45px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        height: 598px !important;
+    }
+    .howWorckImage {
+        right: 10px;
+        width: 100%;
+    }
+    .gamesCollectinImage {
+        width: 100%;
+        top: auto;
+        bottom: 60px;
+        left: 0;
+    }
+    .serverGamesImage {
+        width: 100%;
+        min-width: 370px;
+        top: auto;
+        bottom: 30px;
+        right: -40px;
+    }
+}

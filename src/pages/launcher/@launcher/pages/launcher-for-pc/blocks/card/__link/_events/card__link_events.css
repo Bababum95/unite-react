@@ -1,0 +1,15 @@
+.card__link_events {
+    margin: 100px 0 0;
+}
+
+@media screen and (max-width:850px) {
+    .card__link_events {
+        margin-top: 118px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card__link_events {
+        margin-top: 20px;
+    }
+}

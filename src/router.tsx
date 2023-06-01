@@ -9,6 +9,7 @@ import Account from "./pages/account";
 import Balance from "./pages/account/outlets/Balance";
 import NewsList from "./pages/news/news-list";
 import NewsPost from "./pages/news/news-post";
+import LauncherForAndroid from "./pages/launcher/android";
 
 const router = createHashRouter([
     {
@@ -38,8 +39,12 @@ const router = createHashRouter([
           ],
     },
     {
-        path: "/test",
-        element: <Test />,
+        path: "/launcheer-for-android",
+        element: <LauncherForAndroid />,
+    },
+    {
+        path: "/launcheer-for-pc",
+        element: <LauncherForAndroid />,
     },
     {
         path: "/news",
