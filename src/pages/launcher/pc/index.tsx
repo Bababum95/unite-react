@@ -1,4 +1,5 @@
 import StartGame from '../../../components/simple/start-game'
+import Windows from '../../../components/svg/Windows'
 import Body from '../../../containers/body'
 import News from '../../../containers/news'
 import Suport from '../../../containers/suport'
@@ -6,34 +7,35 @@ import Voice from '../../../containers/voice'
 import FirstSection from '../components/FirstSection'
 import PopularGames from '../components/PopularGames'
 import Content from './Content'
-import Android from '../../../components/svg/Android'
+import ServerGames from './ServerGames'
 
-const LauncherForAndroid = () => {
+const LauncherForPC = () => {
   return (
     <Body>
       <FirstSection
-        platform='ANDROID'
-        subtitle='Мобильный гейминг в Туркменистане!'
+        platform='PC'
+        subtitle='Играй с друзьями без пинга в Туркменистане!'
         buttons={{
           first: {
             link: ''
           },
           second: {
-            text: 'Скачать с Unite Gaming',
+            text: 'Скачать x32',
             link: ''
           },
           third: {
-            text: 'Скачать с Google Play',
+            text: 'Скачать х64',
             link: ''
           }
         }}
-        svg={<Android />} />
+        svg={<Windows />} />
       <Content />
+      <ServerGames />
       <PopularGames
-          categoryId={43}
+          categoryId={69}
           heading={{
-            title: 'Популярные игры на Android',
-            subtitle: 'Обожаемые всеми сетевые игры на любой вкус!'
+            title: 'Популярные игры',
+            subtitle: 'Обожаемые всеми сетевые и одиночные игры на любой вкус!'
           }} />
       <Voice />
       <News />
@@ -43,4 +45,4 @@ const LauncherForAndroid = () => {
   )
 }
 
-export default LauncherForAndroid
+export default LauncherForPC

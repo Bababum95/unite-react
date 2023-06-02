@@ -1,0 +1,100 @@
+.section {
+    padding: 0 20px;
+    margin-top: 71px;
+}
+.card {
+    height: 475px !important;
+}
+.howWorckImage {
+    background-image: url(../../../../asets/images/launcher/pc/launcher.png);
+    width: 557px;
+    height: 430px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hamachiImage {
+    position: absolute;
+    top: 40px;
+    left: -5px;
+}
+.serverGamesImage {
+    position: absolute;
+    top: 30px;
+    right: 4%;
+}
+.gameDayImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.instructionImage {
+    position: absolute;
+    width: 388px;
+    left: 32px;
+    top: 86px;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        height: 450px !important;
+    }
+    .howWorckImage {
+        width: 460px;
+    }
+    .hamachiImage {
+        top: 65px;
+        max-width: 440px;
+    }
+    .serverGamesImage {
+        width: 340px;
+        top: 56px;
+        right: 10px;
+    }
+    .gameDayImage {
+        max-width: 450px;
+        right: auto;
+        left: 366px;
+    }
+    .instructionImage {
+        width: 311.5px;
+    }
+}
+@media screen and (max-width:700px) {
+    .card {
+        height: 598px !important;
+    }
+    .howWorckImage {
+        background-image: url(../../../../asets/images/launcher/pc/launcher-phone.png);
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: 310px;
+    }
+    .hamachiImage {
+        top: auto;
+        bottom: 20px;
+        width: calc(100% + 50px);
+        max-width: 435px;
+    }
+    .serverGamesImage {
+        width: 300px;
+        top: auto;
+        bottom: 30px;
+        right: auto;
+        left: calc((100% - 300px) / 2);
+    }
+    .gameDayImage {
+        max-width: 400px;
+        width: 100%;
+        left: 0;
+    }
+    .instructionImage {
+        top: auto;
+        bottom: 50px;
+        width: 290px;
+        left: calc((100% - 290px)/2);
+    }
+}

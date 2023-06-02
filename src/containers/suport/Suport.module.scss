@@ -27,6 +27,9 @@
     .image {
         width: 88%;
     }
+    .card p {
+        max-width: 280px !important;
+    }
 }
 
 @media screen and (max-width:700px) {

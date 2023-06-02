@@ -3,13 +3,16 @@ import Home from "./pages/home";
 import SignIn from "./pages/auth/sign-in";
 import SignUp from "./pages/auth/sign-up";
 import NotFound from "./pages/404";
-import Test from "./pages/auth/testing-form";
 import Profile from "./pages/account/outlets/Profile";
 import Account from "./pages/account";
 import Balance from "./pages/account/outlets/Balance";
 import NewsList from "./pages/news/news-list";
 import NewsPost from "./pages/news/news-post";
 import LauncherForAndroid from "./pages/launcher/android";
+import LauncherForPC from "./pages/launcher/pc";
+import Mumble from "./pages/voice/Mumble";
+import Teamspeak from "./pages/voice/Teamspeak";
+import Test from "./test";
 
 const router = createHashRouter([
     {
@@ -44,7 +47,15 @@ const router = createHashRouter([
     },
     {
         path: "/launcheer-for-pc",
-        element: <LauncherForAndroid />,
+        element: <LauncherForPC />,
+    },
+    {
+        path: "/mumble",
+        element: <Mumble />,
+    },
+    {
+        path: "/teamspeak",
+        element: <Teamspeak />,
     },
     {
         path: "/news",
@@ -53,6 +64,10 @@ const router = createHashRouter([
     {
         path: "/news/:id",
         element: <NewsPost />,
+    },
+    {
+        path: "/test",
+        element: <Test />,
     },
     {
         path: "*",

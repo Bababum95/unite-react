@@ -7,26 +7,30 @@ import GridContainer from '../../../containers/grid-container';
 import Card from '../../../components/simple/card';
 import SceletoneCard from '../../../components/ui/sceletone/SceletoneCard';
 
-const PopularGames = () => {
+interface PopularGamesProps {
+    categoryId: number
+    heading: {
+        title: string
+        subtitle: string
+    }
+}
+// 43
+const PopularGames = ({categoryId, heading}: PopularGamesProps) => {
     const [gamesList, setGamesList] = useState<IGame[]>()
     useEffect(() => {
         const fetchPost = async () => {
-            const data = await UniteService.getPosts(6, 43)
-            // console.log(data)
+            const data = await UniteService.getPosts(6, categoryId)
             setGamesList(data)
         }
         fetchPost()
     }, [])
     return (
         <section className={styles.section}>
-            <Heading
+            <Heading 
+                text={heading} 
                 classes={{
                     title: styles.title
-                }}
-                text={{
-                    title: 'Популярные игры на Android',
-                    subtitle: 'Обожаемые всеми сетевые игры на любой вкус!'
-                }} />
+                }}/>
             <GridContainer style={styles.content}>
                 <>
                     {gamesList ? gamesList.map(game => (

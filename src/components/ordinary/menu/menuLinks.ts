@@ -11,16 +11,20 @@ export const menulinks: ImenuList = {
             ru: 'Launcher для Android'
         },
         {
-            path: '/',
+            path: '/teamspeak',
             ru: 'TeamSpeak для PC'
         },
         {
-            path: '/',
+            path: '/mumble',
             ru: 'Mumble для Android'
         },
         {
             path: '/',
             ru: 'Покупка игр'
+        },
+        {
+            path: '/test',
+            ru: 'Test'
         }
     ],
     games: [

@@ -16,5 +16,13 @@ export const UniteService = {
     async getImage(id: number) {
         const response = await axios.get(`${baseUrl}/media/${id} `)
         return response.data.source_url
-    }
+    },
+    async getPage(id: string) {
+        const response = await axios.get(`${baseUrl}/pages/${id}`)
+        return response.data
+    },
+    async getTestPosts( ) {
+        const response = await axios.get(`${baseUrl}/posts`)
+        return response.data
+    },
 }
