@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unite-react/static/css/main.591c99a1.css",
-    "main.js": "/unite-react/static/js/main.00be191c.js",
+    "main.css": "/unite-react/static/css/main.4472c67d.css",
+    "main.js": "/unite-react/static/js/main.21a63089.js",
     "static/media/servergame.png": "/unite-react/static/media/servergame.db2826d2f5e06572b0d1.png",
     "static/media/GTA_5_Men_Assault.png": "/unite-react/static/media/GTA_5_Men_Assault.a05afe0d47abfe5f2937.png",
     "static/media/popular-game.png": "/unite-react/static/media/popular-game.d1d5f0847ee22dc248b4.png",
@@ -9,7 +9,6 @@
     "static/media/suport.png": "/unite-react/static/media/suport.f5383b2e3b53bc5dd2e1.png",
     "static/media/phoneisq.png": "/unite-react/static/media/phoneisq.c66c196b22c96b21f7f7.png",
     "static/media/game-day.png": "/unite-react/static/media/game-day.124fa2785647af8f172c.png",
-    "static/media/Minecraft.png": "/unite-react/static/media/Minecraft.308a6158a694a16ec8fd.png",
     "static/media/partners.png": "/unite-react/static/media/partners.b67896ece224e8b263ba.png",
     "static/media/game.png": "/unite-react/static/media/game.f3a3798e976a176aa81e.png",
     "static/media/spider-man.jpg": "/unite-react/static/media/spider-man.0048de4341526340a64a.jpg",
@@ -24,12 +23,16 @@
     "static/media/launcher-phone.png": "/unite-react/static/media/launcher-phone.5e0d8b55fcef807dc577.png",
     "static/media/events.png": "/unite-react/static/media/events.897b3a3aad219ffdb021.png",
     "static/media/computers.png": "/unite-react/static/media/computers.54d76e0bf52c7ec34e41.png",
+    "static/media/instruction.png": "/unite-react/static/media/instruction.06deb326eac3cb83d5b7.png",
     "static/media/phones.png": "/unite-react/static/media/phones.e6228166e047668181ef.png",
     "static/media/gamecollection.png": "/unite-react/static/media/gamecollection.be104e1a46b051591384.png",
     "static/media/teamspeak.png": "/unite-react/static/media/teamspeak.07b8273bdbc6e90ca741.png",
+    "static/media/mumble-gray.png": "/unite-react/static/media/mumble-gray.bbc0747188968658cb56.png",
     "static/media/mumble.png": "/unite-react/static/media/mumble.ed46cefe69b1a875ac77.png",
     "static/media/launcher-android.png": "/unite-react/static/media/launcher-android.3afdb523ee5ba3db660a.png",
     "static/media/document.png": "/unite-react/static/media/document.3f0f7f6c3a265c7b3297.png",
+    "static/media/teamspeak-ip.png": "/unite-react/static/media/teamspeak-ip.7e0c78f45541372a5177.png",
+    "static/media/mumbli-ip.png": "/unite-react/static/media/mumbli-ip.eb4ef3f4156ef983f7fd.png",
     "static/media/buy-games.png": "/unite-react/static/media/buy-games.24a3e8947c6e048fce07.png",
     "static/media/panda.png": "/unite-react/static/media/panda.4a8a281aa0c979e9e426.png",
     "static/media/gtasa.png": "/unite-react/static/media/gtasa.7e9b3e9a4ec393f78a30.png",
@@ -51,11 +54,11 @@
     "index.html": "/unite-react/index.html",
     "static/media/close-small.svg": "/unite-react/static/media/close-small.2500634010b43a0ab094.svg",
     "static/media/arow.svg": "/unite-react/static/media/arow.f44323fca18b7ea08d3b.svg",
-    "main.591c99a1.css.map": "/unite-react/static/css/main.591c99a1.css.map",
-    "main.00be191c.js.map": "/unite-react/static/js/main.00be191c.js.map"
+    "main.4472c67d.css.map": "/unite-react/static/css/main.4472c67d.css.map",
+    "main.21a63089.js.map": "/unite-react/static/js/main.21a63089.js.map"
   },
   "entrypoints": [
-    "static/css/main.591c99a1.css",
-    "static/js/main.00be191c.js"
+    "static/css/main.4472c67d.css",
+    "static/js/main.21a63089.js"
   ]
 }
