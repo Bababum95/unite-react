@@ -32,7 +32,7 @@ const LauncherForPC = () => {
       <Content />
       <ServerGames />
       <PopularGames
-          categoryId={69}
+          categoryId={47}
           heading={{
             title: 'Популярные игры',
             subtitle: 'Обожаемые всеми сетевые и одиночные игры на любой вкус!'

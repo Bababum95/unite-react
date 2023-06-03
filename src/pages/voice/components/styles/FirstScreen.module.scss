@@ -2,7 +2,22 @@
     margin: 200px auto 244px;
     padding: 0 20px;
 }
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 24px auto 0;
+    gap: 18px;
+}
 
+.button {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    svg {
+        height: 21px;
+        width: 21px;
+    }
+}
 
 
 @media screen and (max-width:850px) {

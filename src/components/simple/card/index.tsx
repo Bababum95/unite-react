@@ -10,10 +10,9 @@ interface CardProps {
     time?: string
     link: string
     topic: string
-    id: number
 }
 
-const Card = ({ id, imageId, title, time, topic, link}: CardProps) => {
+const Card = ({ imageId, title, time, topic, link}: CardProps) => {
     const [image, setImage] = useState<string>()
     useEffect(() => {
         const fetchPosts = async () => {

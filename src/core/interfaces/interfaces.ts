@@ -1,12 +1,12 @@
 export interface IPost {
-    id: number;
+    id: number
     title: {
         rendered: string
     };
 }
 export interface IGame {
-    id: number;
-    featured_media: number;
+    id: number
+    featured_media: number
     junre: string
     link: string
     title: {
@@ -14,8 +14,8 @@ export interface IGame {
     };
 }
 export interface INews {
-    id: number;
-    featured_media: number;
+    id: number
+    featured_media: number
     teg: string
     date: string
     content: {

@@ -37,7 +37,6 @@
         z-index: 2;
     }
 
-
     &__menu {
         list-style: none;
         margin: 0;
@@ -91,7 +90,6 @@
         background: #2F2F32;
         border-radius: 20px;
         width: 185px;
-        height: 186px;
         padding: 21px 17px;
         box-sizing: border-box;
         flex-direction: column;
@@ -197,7 +195,7 @@
         }
 
         &__menu li:hover div {
-            max-height: 300px;
+            max-height: 350px;
         }
     }
 }

@@ -36,7 +36,6 @@ const PopularGames = ({categoryId, heading}: PopularGamesProps) => {
                     {gamesList ? gamesList.map(game => (
                         <Card
                             key={game.id}
-                            id={game.id}
                             link={game.link}
                             imageId={game.featured_media}
                             title={game.title.rendered}

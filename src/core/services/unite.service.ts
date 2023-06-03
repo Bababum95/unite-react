@@ -25,4 +25,8 @@ export const UniteService = {
         const response = await axios.get(`${baseUrl}/posts`)
         return response.data
     },
+    async getTestCategories( ) {
+        const response = await axios.get(`${baseUrl}/categories?per_page=30`)
+        return response.data
+    },
 }

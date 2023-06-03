@@ -29,6 +29,11 @@
     cursor: default;
 }
 
+@media screen and (max-width: 900px) {
+    .swiper {
+        padding: 0 25px;
+    }
+}
 @media screen and (max-width: 700px) {
     .swiper {
         padding: 0 20px;

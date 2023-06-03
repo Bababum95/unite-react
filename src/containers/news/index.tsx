@@ -24,7 +24,6 @@ const News = () => {
                 {threeNews ? threeNews.map(news => (
                     <Card
                         key={news.id}
-                        id={news.id}
                         link={`/news/${news.id}`}
                         imageId={news.featured_media}
                         title={news.title.rendered}
