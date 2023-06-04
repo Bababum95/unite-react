@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unite-react/static/css/main.4472c67d.css",
-    "main.js": "/unite-react/static/js/main.21a63089.js",
+    "main.css": "/unite-react/static/css/main.80e9f687.css",
+    "main.js": "/unite-react/static/js/main.3488f359.js",
     "static/media/servergame.png": "/unite-react/static/media/servergame.db2826d2f5e06572b0d1.png",
     "static/media/GTA_5_Men_Assault.png": "/unite-react/static/media/GTA_5_Men_Assault.a05afe0d47abfe5f2937.png",
     "static/media/popular-game.png": "/unite-react/static/media/popular-game.d1d5f0847ee22dc248b4.png",
@@ -42,6 +42,7 @@
     "static/media/isq.svg": "/unite-react/static/media/isq.fcca9ce7ead6e5dfebe9959d92d97ba6.svg",
     "static/media/money.svg": "/unite-react/static/media/money.f06527c1ff2b5a501c2a8b8388955560.svg",
     "static/media/instagram.svg": "/unite-react/static/media/instagram.77d374aa6ef18e5684165ad5db62f30d.svg",
+    "static/media/eye-slash.svg": "/unite-react/static/media/eye-slash.60b619227332d884aab6.svg",
     "static/media/application.svg": "/unite-react/static/media/application.828f66505e6297448a3f82751ec8d964.svg",
     "static/media/walet.svg": "/unite-react/static/media/walet.70cf6d8f438eac487e667300d7e8a0f0.svg",
     "static/media/question.svg": "/unite-react/static/media/question.d463275a91da7ed3baa1dd444714e9c1.svg",
@@ -49,16 +50,17 @@
     "static/media/key.svg": "/unite-react/static/media/key.97891fa62a17dd84543851574e86e856.svg",
     "static/media/tiktok.svg": "/unite-react/static/media/tiktok.79d004146bcb5e4404fd5bad70e2c41c.svg",
     "static/media/history.svg": "/unite-react/static/media/history.6ae8d57215c9d04b876d1a688135ddb6.svg",
+    "static/media/eye.svg": "/unite-react/static/media/eye.d11cd9b20ec6c12dd4e0.svg",
     "static/media/UserSquare.svg": "/unite-react/static/media/UserSquare.e0130f1a4d2b8ada10d53bc7d6be797f.svg",
     "static/media/triangle-round-rectangle.svg": "/unite-react/static/media/triangle-round-rectangle.cc9d576327c9dc52861b3a0a67aad5cc.svg",
     "index.html": "/unite-react/index.html",
     "static/media/close-small.svg": "/unite-react/static/media/close-small.2500634010b43a0ab094.svg",
     "static/media/arow.svg": "/unite-react/static/media/arow.f44323fca18b7ea08d3b.svg",
-    "main.4472c67d.css.map": "/unite-react/static/css/main.4472c67d.css.map",
-    "main.21a63089.js.map": "/unite-react/static/js/main.21a63089.js.map"
+    "main.80e9f687.css.map": "/unite-react/static/css/main.80e9f687.css.map",
+    "main.3488f359.js.map": "/unite-react/static/js/main.3488f359.js.map"
   },
   "entrypoints": [
-    "static/css/main.4472c67d.css",
-    "static/js/main.21a63089.js"
+    "static/css/main.80e9f687.css",
+    "static/js/main.3488f359.js"
   ]
 }
