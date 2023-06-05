@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unite-react/static/css/main.80e9f687.css",
-    "main.js": "/unite-react/static/js/main.3488f359.js",
+    "main.css": "/unite-react/static/css/main.311d67ed.css",
+    "main.js": "/unite-react/static/js/main.4a911da4.js",
     "static/media/servergame.png": "/unite-react/static/media/servergame.db2826d2f5e06572b0d1.png",
     "static/media/GTA_5_Men_Assault.png": "/unite-react/static/media/GTA_5_Men_Assault.a05afe0d47abfe5f2937.png",
     "static/media/popular-game.png": "/unite-react/static/media/popular-game.d1d5f0847ee22dc248b4.png",
@@ -56,11 +56,11 @@
     "index.html": "/unite-react/index.html",
     "static/media/close-small.svg": "/unite-react/static/media/close-small.2500634010b43a0ab094.svg",
     "static/media/arow.svg": "/unite-react/static/media/arow.f44323fca18b7ea08d3b.svg",
-    "main.80e9f687.css.map": "/unite-react/static/css/main.80e9f687.css.map",
-    "main.3488f359.js.map": "/unite-react/static/js/main.3488f359.js.map"
+    "main.311d67ed.css.map": "/unite-react/static/css/main.311d67ed.css.map",
+    "main.4a911da4.js.map": "/unite-react/static/js/main.4a911da4.js.map"
   },
   "entrypoints": [
-    "static/css/main.80e9f687.css",
-    "static/js/main.3488f359.js"
+    "static/css/main.311d67ed.css",
+    "static/js/main.4a911da4.js"
   ]
 }
