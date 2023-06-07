@@ -1,0 +1,90 @@
+.section {
+    padding: 0 20px;
+    margin-bottom: 200px;
+}
+.communicationCard {
+    margin-top: 72px;
+    height: 475px;
+}
+.card {
+    height: 475px;
+}
+.communicationImage {
+    background-image: url(../../../../asets/images/games/ruls/comunication.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.nicknameImage {
+    background-image: url(../../../../asets/images/games/ruls/nickname.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.fraudImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(../../../../asets/images/games/ruls/fraud.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.behaviorImage {
+    background-image: url(../../../../asets/images/games/ruls/behavior.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+@media screen and (max-width:850px) {
+    .section {
+        margin-bottom: 104px;
+    }
+    .card, .communicationCard {
+        height: 450px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .card, .communicationCard {
+        height: 598px;
+    }
+    .communicationImage {
+        background-size: cover;
+        background-image: url(../../../../asets/images/games/ruls/communication-phone.png);
+        top: auto;
+        height: 314px;
+    }
+    .nicknameImage {
+        background-size: cover;
+        background-image: url(../../../../asets/images/games/ruls/nickname-phone.png);
+        top: auto;
+        height: 300px;
+    }
+    .fraudImage {
+        background-size: cover;
+        background-image: url(../../../../asets/images/games/ruls/fraud-phone.png);
+        top: auto;
+        height: 286px;
+    }
+    .behaviorImage {
+        background-size: cover;
+        background-image: url(../../../../asets/images/games/ruls/behavior-phone.png);
+        top: auto;
+        height: 299px;
+    }
+}

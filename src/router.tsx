@@ -15,6 +15,7 @@ import Teamspeak from "./pages/voice/Teamspeak";
 import Test from "./test";
 import Forgot from "./pages/auth/forgot";
 import Confirm from "./pages/auth/confirm"
+import ServerGames from "./pages/games/ServerGames";
 
 const router = createHashRouter([
     {
@@ -66,6 +67,10 @@ const router = createHashRouter([
     {
         path: "/teamspeak",
         element: <Teamspeak />,
+    },
+    {
+        path: "/server-games",
+        element: <ServerGames />,
     },
     {
         path: "/news",

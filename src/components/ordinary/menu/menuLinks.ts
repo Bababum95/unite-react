@@ -33,33 +33,33 @@ export const menulinks: ImenuList = {
     ],
     games: [
         {
-            path: '/',
+            path: '/server-games',
             ru: 'Серверные игры'
         },
         {
-            path: '/',
+            path: '/network-games',
             ru: 'Сетевые игры'
         },
         {
-            path: '/',
+            path: '/single-games',
             ru: 'Одиночные игры'
         },
         {
-            path: '/',
+            path: '/programs',
             ru: 'Программы для игр'
         },
         {
-            path: '/',
+            path: '/android=games',
             ru: 'Игры на Android'
         }
     ],
     about: [
         {
-            path: '/',
+            path: '/about',
             ru: 'О нас'
         },
         {
-            path: '/',
+            path: '/team',
             ru: 'Команда'
         },
         {

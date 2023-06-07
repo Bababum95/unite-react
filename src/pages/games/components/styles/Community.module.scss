@@ -1,0 +1,42 @@
+.card {
+    margin-bottom: 150px;
+    height: 475px;
+}
+.image {
+    background-image: url(../../../../asets/images/games/community.png);
+    background-size: cover;
+    height: 100%;
+    width: 47%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease-in-out;
+}
+
+@media (any-hover: hover) {
+    .card:hover .image {
+        transform: scale(105%);
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .card {
+        margin-bottom: 80px;
+        margin-inline: 20px;
+        height: 450px;
+    }
+    .image {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card {
+        height: 598px;
+    }
+    .image {
+        background-image: url(../../../../asets/images/games/community-phone.png);
+        height: 337px;
+        width: 100%;
+    }
+}
