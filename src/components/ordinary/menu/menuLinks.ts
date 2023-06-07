@@ -23,6 +23,10 @@ export const menulinks: ImenuList = {
             ru: 'Покупка игр'
         },
         {
+            path: '/account',
+            ru: 'Account'
+        },
+        {
             path: '/test',
             ru: 'Test'
         }

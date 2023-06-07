@@ -15,12 +15,12 @@ const FirstScreen = () => {
                 <p className={styles.text}>Пройди регистрацию, скачай лаунчер и комфортно играй в лучшие сетевые игры
                     без пинга на PC и Android! </p>
                 <div className={styles.buttons}>
-                    <Link to="/">
+                    <Link to="/sign-up">
                         <Button classes={styles.button} title="Регистрация" />
                     </Link>
                     <p className={styles.subtext}>Доступно:</p>
-                    <Link to='/'><Android /></Link>
-                    <Link to="/"><Windows /></Link>
+                    <Link to='/launcheer-for-pc'><Android /></Link>
+                    <Link to="/launcheer-for-android"><Windows /></Link>
                 </div>
             </div>
             <div className={styles.preview}>

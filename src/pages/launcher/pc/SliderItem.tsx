@@ -4,7 +4,7 @@ import styles from './styles/SliderItem.module.scss'
 import { UniteService } from '../../../core/services/unite.service'
 
 interface SliderItemProps {
-  imageId: number
+  imageId: string
   title: string
   link: string
 }
@@ -21,7 +21,7 @@ const SliderItem = ({imageId, title, link }: SliderItemProps) => {
   return (
     <div className={styles.card}>
         <img className={styles.image} src={image} alt={title} />
-      <Link to={link}>
+      <Link to={link.replace(/new.unite-gaming.com/g, 'unite-gaming.com')}>
         <h3 className={styles.title}>{title}</h3>
       </Link>
     </div>

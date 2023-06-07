@@ -23,13 +23,13 @@ const Products = () => {
                     subtitle: styles.subtitle
                 }} />
             <VerticalBlockContainer>
-                <VerticalBlock style={styles.cardPC} path='/' text={{
+                <VerticalBlock style={styles.cardPC} path='/launcheer-for-pc' text={{
                     title: 'Unite Gaming Launcher для PC',
                     link: 'Скачать >'
                 }}>
                     <img className={styles.computersImage} src={computersImage} alt="компьютер" />
                 </VerticalBlock>
-                <VerticalBlock style={styles.cardAndroid} path='/' text={{
+                <VerticalBlock style={styles.cardAndroid} path='/launcheer-for-android' text={{
                     title: 'Unite Gaming Launcher для Android',
                     link: 'Скачать >'
                 }}>

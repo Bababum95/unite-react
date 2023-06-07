@@ -1,38 +1,71 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import MainAuth from '../../../components/smart/form-auth/MainAuth';
-import FormAuth from '../../../components/smart/form-auth';
+import { useForm } from "react-hook-form";
+import classNames from 'classnames';
+import MainAuth from '../components/MainAuth';
 import styles from './SignIn.module.scss';
 import Checkbox from '../../../components/ui/Checkbox';
 import Body from '../../../containers/body';
+import Button from '../../../components/ui/Button';
 
-
+type FormData = {
+  email: string;
+  password: string;
+  checkbox: boolean
+};
 
 const SignIn = () => {
+  const [showPass, setShowPass] = useState(false)
+  const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
+    mode: 'onTouched',
+    defaultValues: {
+      email: '',
+      password: '',
+      checkbox: true
+    }
+  });
+  const onSubmit = handleSubmit(data => console.log(data));
+
   return (
     <Body>
-      <MainAuth>
-        <FormAuth link='/sign-up'
-          text={{
-            title: 'Войдите в платформу Unite-Gaming',
-            button: 'Войти в систему',
-            footnote: 'Нет аккаунта?',
-            link: 'Регистрация'
-          }} >
+      <MainAuth
+        link='/sign-up'
+        text={{
+          title: 'Войдите в платформу Unite-Gaming',
+          footnote: 'Нет аккаунта?',
+          link: 'Регистрация'
+        }} >
+        <form onSubmit={onSubmit} className={styles.form} noValidate>
           <label className='label'>
-            Email*
-            <input className='input' name='email' type="email" placeholder='Введите адрес электронной почты' required />
+            Email
+            <input
+              type='email'
+              className={classNames('input', { 'erorr': errors.email })}
+              placeholder='Введите адрес электронной почты'
+              {...register('email', { required: 'Неверный адрес электронной почты' })} />
+              {errors.email && <span className='error-message'>{errors.email.message}</span>}
           </label>
           <label className='label'>
-            Пароль*
-            <input className='input' name='password' type="password" placeholder='Введите пароль' required />
+            Пароль
+            <input
+              className={classNames('input', { 'erorr': errors.password })}
+              type={showPass? 'text' : 'password'}
+              placeholder='Введите пароль'
+              {...register('password', { required: 'Неверный пароль' })} />
+              {errors.password && <span className='error-message'>{errors.password.message}</span>}
+              <button
+              type='button'
+              className={classNames(styles.buttonShowPass, {[styles.active]: showPass})}
+              onClick={() => setShowPass(!showPass)} />
           </label>
           <div className={styles.wraper}>
-            <Checkbox>
+            <Checkbox register={register}>
               <p>Запомнить меня</p>
             </Checkbox>
-            <Link className={styles.forget} to='/'>Забыли пароль?</Link>
+            <Link className={styles.forget} to='/forgot'>Забыли пароль?</Link>
           </div>
-        </FormAuth>
+          <Button title='Войти в систему' fullPage={true} />
+        </form>
       </MainAuth>
     </Body>
   )

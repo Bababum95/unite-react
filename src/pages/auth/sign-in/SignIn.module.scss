@@ -12,3 +12,27 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+.form {
+    width: 100%;
+    margin-top: 38px;
+}
+
+.buttonShowPass {
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../../../asets/images/auth/eye-slash.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.buttonShowPass.active {
+    background-image: url(../../../asets/images/auth/eye.svg);
+}

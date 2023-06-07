@@ -37,7 +37,7 @@ const NewsList = () => {
         <Body>
             <section className={styles.section}>
                 <Subheading text='Новости' />
-                <Title text='Новости и мероприятия' />
+                <Title style={styles.title} text='Новости и мероприятия' />
                 <GridContainer style={styles.list}>
                     <>
                         {newsList ? newsList.map(news => (

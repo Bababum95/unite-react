@@ -1,0 +1,18 @@
+.suport {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #37A8C1;
+    margin: 44px auto;
+    display: block;
+    span {
+        background-image: url(../../../../asets/images/auth/ArrowLineUpRight.svg);
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+        margin-left: 6px;
+        display: inline-block;
+        transform: translateY(6px);
+    }
+}

@@ -13,6 +13,8 @@ import LauncherForPC from "./pages/launcher/pc";
 import Mumble from "./pages/voice/Mumble";
 import Teamspeak from "./pages/voice/Teamspeak";
 import Test from "./test";
+import Forgot from "./pages/auth/forgot";
+import Confirm from "./pages/auth/confirm"
 
 const router = createHashRouter([
     {
@@ -26,6 +28,14 @@ const router = createHashRouter([
     {
         path: "/sign-in",
         element: <SignIn />,
+    },
+    {
+        path: "/forgot",
+        element: <Forgot />,
+    },
+    {
+        path: "/confirm",
+        element: <Confirm />,
     },
     {
         path: "/account",

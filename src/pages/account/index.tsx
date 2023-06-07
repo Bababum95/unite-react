@@ -44,7 +44,7 @@ const Account = () => {
                         </li>
                     </ul>
                     <NavLink to='/' className={styles.button}>
-                        <Button classes={styles.button} title='Поддержка' />
+                        <Button fullPage={true} title='Поддержка' />
                     </NavLink>
                 </div>
                 <div className={styles.content}>

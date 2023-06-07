@@ -30,10 +30,10 @@ const Header = () => {
                         linkStyle={styles.header__signBtn_phone}
                         buttonStyle={styles.header__signBtn_phone} />
                 </nav>
-                <select className={styles.header__lang} name="lang">
+                {/* <select className={styles.header__lang} name="lang">
                     <option className={styles.header__lang_ru} defaultValue="ru" selected>RU</option>
                     <option className={styles.header__lang_ru} defaultValue="ru">RU</option>
-                </select>
+                </select> */}
                 <button className={burgerClases} onClick={() => setMenuOpen(!isMenuOpen)}></button>
                 <HeaderButton linkStyle={styles.header__signBtn} buttonStyle={styles.header__button} />
             </div>

@@ -6,7 +6,7 @@ const Test = () => {
     const [gamesList, setGamesList] = useState<IGame[]>()
     useEffect(() => {
         const fetchPost = async () => {
-            const data = await UniteService.getTestCategories()
+            const data = await UniteService.getTestPosts()
             console.log(data)
         }
         fetchPost()

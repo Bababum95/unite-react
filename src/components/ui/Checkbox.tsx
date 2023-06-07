@@ -2,12 +2,13 @@ import styles from './styles/Checkbox.module.scss'
 
 interface CheckboxProps {
     children: JSX.Element
+    register?: any
 }
 
-const Checkbox = ({children}: CheckboxProps) => {
+const Checkbox = ({children, register}: CheckboxProps) => {
     return (
         <label className={styles.label}>
-            <input className={styles.input} type="checkbox" />
+            <input {...register('checkbox')} className={styles.input} type="checkbox" />
             <span className={styles.span} />
             {children}
         </label>

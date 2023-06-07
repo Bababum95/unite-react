@@ -12,6 +12,7 @@
 .button {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 13px;
     svg {
         height: 21px;
@@ -29,5 +30,8 @@
 @media screen and (max-width:700px) {
     .section {
         margin: 70px auto 97px;
+    }
+    .wrapper {
+        flex-direction: column;
     }
 }

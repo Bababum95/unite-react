@@ -19,3 +19,40 @@
     left: 80px;
     top: 75px;
 }
+
+@media screen and (max-width:850px) {
+    .rulsImage {
+        left: 40px;
+        top: 40px;
+    }
+    .instructionImage {
+        top: 5px;
+        right: 80px;
+    }
+    .ipImage {
+        width: 335px;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .rulsImage {
+        width: 245px;
+        left: calc((100% - 245px)/2);
+        top: auto;
+        bottom: 20px;
+    }
+    .instructionImage {
+        right: auto;
+        top: auto;
+        width: 245px;
+        left: calc((100% - 245px)/2);
+        bottom: 10px;
+    }
+    .ipImage {
+        max-width: 325px;
+        width: 90%;
+        left: 40px;
+        top: 245px;
+    }
+}

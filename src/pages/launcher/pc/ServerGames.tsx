@@ -43,9 +43,9 @@ const ServerGames = () => {
                 {gamesList && gamesList.map(game => (
                     <SwiperSlide key={game.id} >
                         <SliderItem
-                            link={`/games/${game.id}`}
-                            imageId={game.featured_media}
-                            title={game.title.rendered} />
+                            link={game.guid.rendered}
+                            imageId={game['img-game']}
+                            title={game['name-game']} />
                     </SwiperSlide>
                 ))}
             </Swiper>

@@ -28,14 +28,13 @@ const Content = ({ name, ipList }: ContentProps) => {
                 }}>
                     <img className={styles.instructionImage} src={images.secondBlock} alt='Инструкция по подключению' />
             </HorizontalBlock>
-            <HorizontalBlock path='/' textRight={true} style={styles.card} textMaxWidth={335}
+            <HorizontalBlock textRight={true} style={styles.card} textMaxWidth={335}
                 text={{
                     title: 'IP действующих серверов',
                     paragraph: `Активные сервера ${name}:
                     ${ipList.map((ip, i) => (
-                        ` • Unite Gaming ${i + 1}: ${ip}`
-                    ))}`,
-                    link: 'Изучить правила >'
+                        ` • Unite Gaming ${i + 1}: ${ip}`
+                    ))}`
                 }}>
                     <img className={styles.ipImage} src={images.thirdBlock[name]} alt={`${name} список IP`} />
             </HorizontalBlock>

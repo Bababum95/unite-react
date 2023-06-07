@@ -1,19 +1,21 @@
-import styles from './styles/Button.module.scss'
 import classNames from 'classnames'
-import Android from '../svg/Android'
+import styles from './styles/Button.module.scss'
 
 interface ButtonProps {
+    title: string
+    type?: 'button' | 'submit' | 'reset'
     classes?: string
     loading?: boolean
-    title: string
     handleClick?: Function
     children?: JSX.Element
+    fullPage?: boolean
 }
 
-const Button = ({title, classes, handleClick, loading, children }: ButtonProps) => {
-    const buttonClases = classNames(classes, styles.button, {[styles.load]: loading})
+const Button = ({title, classes, handleClick, loading, children, fullPage, type }: ButtonProps) => {
+    const buttonClases = classNames(classes, styles.button, {[styles.load]: loading, [styles.fullPage]: fullPage})
     return (
         <button
+            type={type}
             onClick={() => handleClick && handleClick()}
             disabled={loading}
             className={buttonClases}>
