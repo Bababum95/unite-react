@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/unite-react/static/css/main.1fc43c0c.css",
-    "main.js": "/unite-react/static/js/main.eee11134.js",
+    "main.css": "/unite-react/static/css/main.360e960a.css",
+    "main.js": "/unite-react/static/js/main.6c473bf1.js",
     "static/media/servergame.png": "/unite-react/static/media/servergame.db2826d2f5e06572b0d1.png",
     "static/media/GTA_5_Men_Assault.png": "/unite-react/static/media/GTA_5_Men_Assault.a05afe0d47abfe5f2937.png",
     "static/media/popular-game.png": "/unite-react/static/media/popular-game.d1d5f0847ee22dc248b4.png",
     "static/media/hs.png": "/unite-react/static/media/hs.e5be5aee0ccc525141e9.png",
     "static/media/suport.png": "/unite-react/static/media/suport.f5383b2e3b53bc5dd2e1.png",
+    "static/media/behavior.png": "/unite-react/static/media/behavior.a10de9573a31a1cb20a5.png",
     "static/media/phoneisq.png": "/unite-react/static/media/phoneisq.c66c196b22c96b21f7f7.png",
+    "static/media/comunication.png": "/unite-react/static/media/comunication.01683e784aba7005e4c3.png",
+    "static/media/community.png": "/unite-react/static/media/community.c4487979477386d735a2.png",
+    "static/media/fraud.png": "/unite-react/static/media/fraud.82088cc63d5428411169.png",
+    "static/media/nickname.png": "/unite-react/static/media/nickname.30f0dd02b4ce462395f2.png",
     "static/media/game-day.png": "/unite-react/static/media/game-day.124fa2785647af8f172c.png",
     "static/media/partners.png": "/unite-react/static/media/partners.b67896ece224e8b263ba.png",
     "static/media/game.png": "/unite-react/static/media/game.f3a3798e976a176aa81e.png",
     "static/media/spider-man.jpg": "/unite-react/static/media/spider-man.0048de4341526340a64a.jpg",
     "static/media/hs-phone.png": "/unite-react/static/media/hs-phone.bb7e85eb12cbd90bd33d.png",
+    "static/media/behavior-phone.png": "/unite-react/static/media/behavior-phone.70a98f2ae546057bf5c9.png",
+    "static/media/communication-phone.png": "/unite-react/static/media/communication-phone.b2a6052438d27f11cdfc.png",
+    "static/media/community-phone.png": "/unite-react/static/media/community-phone.b48ad89e8f08713b9b3d.png",
     "static/media/hamachi.png": "/unite-react/static/media/hamachi.fb241eab36d0fc424bc6.png",
     "static/media/server.png": "/unite-react/static/media/server.a0682fa8242c3d34747a.png",
     "static/media/popular-game-phone.png": "/unite-react/static/media/popular-game-phone.11d7fe8c43140cbb46c5.png",
@@ -20,6 +28,8 @@
     "static/media/steam.png": "/unite-react/static/media/steam.5cb21d92da58f3ed3dd6.png",
     "static/media/launcher.png": "/unite-react/static/media/launcher.201ba22ad87015591d6b.png",
     "static/media/instagram-screen.png": "/unite-react/static/media/instagram-screen.28fcfacb2fe377bac387.png",
+    "static/media/nickname-phone.png": "/unite-react/static/media/nickname-phone.169340bbb30cc5ae8d20.png",
+    "static/media/fraud-phone.png": "/unite-react/static/media/fraud-phone.fc3aad9b96dfd67d93eb.png",
     "static/media/launcher-phone.png": "/unite-react/static/media/launcher-phone.5e0d8b55fcef807dc577.png",
     "static/media/events.png": "/unite-react/static/media/events.897b3a3aad219ffdb021.png",
     "static/media/computers.png": "/unite-react/static/media/computers.54d76e0bf52c7ec34e41.png",
@@ -58,11 +68,11 @@
     "static/media/ArrowLineUpRight.svg": "/unite-react/static/media/ArrowLineUpRight.81f22b709c649854f3e2.svg",
     "static/media/close-small.svg": "/unite-react/static/media/close-small.2500634010b43a0ab094.svg",
     "static/media/arow.svg": "/unite-react/static/media/arow.f44323fca18b7ea08d3b.svg",
-    "main.1fc43c0c.css.map": "/unite-react/static/css/main.1fc43c0c.css.map",
-    "main.eee11134.js.map": "/unite-react/static/js/main.eee11134.js.map"
+    "main.360e960a.css.map": "/unite-react/static/css/main.360e960a.css.map",
+    "main.6c473bf1.js.map": "/unite-react/static/js/main.6c473bf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fc43c0c.css",
-    "static/js/main.eee11134.js"
+    "static/css/main.360e960a.css",
+    "static/js/main.6c473bf1.js"
   ]
 }
