@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { IMenuStyles } from './interfaces'
-import SubMenu from './sub_menu';
-import { menulinks } from './menuLinks'
+import { IMenuStyles } from '../../../core/interfaces/links.interfaces'
+import SubMenu from './SubMenu';
+import { menulinks } from '../../../router/menuLinks'
 
 interface HeaderMenuProps {
     styles: IMenuStyles

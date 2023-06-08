@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { UniteService } from '../../../core/services/unite.service'
-import { INews } from '../../../core/interfaces/interfaces';
+import { INews } from '../../../core/interfaces/posts.interfaces';
 import styles from './NewsList.module.scss';
 import Body from "../../../containers/body"
 import StartGame from "../../../components/simple/start-game"

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { UniteService } from '../../core/services/unite.service'
-import { INews } from '../../core/interfaces/interfaces'
+import { INews } from '../../core/interfaces/posts.interfaces'
 import Button from '../../components/ui/Button';
 import Title from '../../components/ui/Title'
 import Card from '../../components/simple/card';

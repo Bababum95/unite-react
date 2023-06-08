@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import { UniteService } from '../../../core/services/unite.service';
-import { INews } from '../../../core/interfaces/interfaces';
+import { INews } from '../../../core/interfaces/posts.interfaces';
 import styles from './NewsPost.module.scss';
 import Body from "../../../containers/body"
 import Title from '../../../components/ui/Title';

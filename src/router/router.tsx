@@ -1,21 +1,24 @@
 import { createHashRouter } from "react-router-dom";
-import Home from "./pages/home";
-import SignIn from "./pages/auth/sign-in";
-import SignUp from "./pages/auth/sign-up";
-import NotFound from "./pages/404";
-import Profile from "./pages/account/outlets/Profile";
-import Account from "./pages/account";
-import Balance from "./pages/account/outlets/Balance";
-import NewsList from "./pages/news/news-list";
-import NewsPost from "./pages/news/news-post";
-import LauncherForAndroid from "./pages/launcher/android";
-import LauncherForPC from "./pages/launcher/pc";
-import Mumble from "./pages/voice/Mumble";
-import Teamspeak from "./pages/voice/Teamspeak";
-import Test from "./test";
-import Forgot from "./pages/auth/forgot";
-import Confirm from "./pages/auth/confirm"
-import ServerGames from "./pages/games/ServerGames";
+import Home from "../pages/home";
+import SignIn from "../pages/auth/sign-in";
+import SignUp from "../pages/auth/sign-up";
+import NotFound from "../pages/404";
+import Profile from "../pages/account/outlets/Profile";
+import Account from "../pages/account";
+import Balance from "../pages/account/outlets/Balance";
+import NewsList from "../pages/news/news-list";
+import NewsPost from "../pages/news/news-post";
+import LauncherForAndroid from "../pages/launcher/android";
+import LauncherForPC from "../pages/launcher/pc";
+import Mumble from "../pages/voice/Mumble";
+import Teamspeak from "../pages/voice/Teamspeak";
+import Test from "../test";
+import Forgot from "../pages/auth/forgot";
+import Confirm from "../pages/auth/confirm"
+import ServerGames from "../pages/games/ServerGames";
+import NetworkGames from "../pages/games/NetworkGames";
+import SingleGames from "../pages/games/SingleGames";
+import AndroidGames from "../pages/games/AndroidGames";
 
 const router = createHashRouter([
     {
@@ -67,6 +70,18 @@ const router = createHashRouter([
     {
         path: "/teamspeak",
         element: <Teamspeak />,
+    },
+    {
+        path: "/single-games",
+        element: <SingleGames />,
+    },
+    {
+        path: "/android-games",
+        element: <AndroidGames />,
+    },
+    {
+        path: "/network-games",
+        element: <NetworkGames />,
     },
     {
         path: "/server-games",

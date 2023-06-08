@@ -6,22 +6,19 @@ import Community from './components/Community'
 import GamesList from './components/GamesList'
 import Ruls from './components/Ruls'
 
-const ServerGames = () => {
+const NetworkGames = () => {
   return (
     <Body>
       <GamesList
-        postsId={57}
+        postsId={69}
         heading={{
-          title: 'Серверные игры',
-          subtitle: 'Лучшие из лучших игр уже на серверах Unite Gaming!'
+          title: 'Сетевые игры',
+          subtitle: 'Лучшие из лучших игр уже доступны для скачивания с Unite Gaming!'
         }} />
-      <Community />
-      <Ruls />
-      <News />
       <Suport />
       <StartGame />
     </Body>
   )
 }
 
-export default ServerGames
+export default NetworkGames

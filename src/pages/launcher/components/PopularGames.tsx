@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { UniteService } from '../../../core/services/unite.service';
-import { IGame } from '../../../core/interfaces/interfaces';
+import { IGame } from '../../../core/interfaces/posts.interfaces';
 import styles from './styles/PopularGames.module.scss';
 import Heading from '../../../components/simple/heading'
 import GridContainer from '../../../containers/grid-container';

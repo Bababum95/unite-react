@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { UniteService } from '../../../core/services/unite.service';
-import { IGame } from '../../../core/interfaces/interfaces';
+import { IGame } from '../../../core/interfaces/posts.interfaces';
 import 'swiper/scss';
 import styles from './styles/ServerGames.module.scss';
 import Heading from '../../../components/simple/heading'

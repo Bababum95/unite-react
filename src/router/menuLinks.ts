@@ -1,4 +1,4 @@
-import { ImenuList } from "./interfaces";
+import { ImenuList } from "../core/interfaces/links.interfaces";
 
 export const menulinks: ImenuList = {
     ourProducts: [
@@ -49,7 +49,7 @@ export const menulinks: ImenuList = {
             ru: 'Программы для игр'
         },
         {
-            path: '/android=games',
+            path: '/android-games',
             ru: 'Игры на Android'
         }
     ],

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames'
-import { IMenuStyles } from '../../components/ordinary/menu/interfaces';
+import { IMenuStyles } from '../../core/interfaces/links.interfaces';
 import HeaderMenu from '../../components/ordinary/menu/HeaderMenu';
 import HeaderButton from './components/HeaderButton';
 import Logo from '../../components/ui/Logo';

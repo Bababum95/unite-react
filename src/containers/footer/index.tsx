@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './footer.module.scss';
 import FooterMenu from '../../components/ordinary/menu/FooterMenu';
 import Logo from '../../components/ui/Logo'
-import { IMenuStyles } from '../../components/ordinary/menu/interfaces';
+import { IMenuStyles } from '../../core/interfaces/links.interfaces';
 import isqIcon from '../../asets/images/social-icons/isq.svg'
 import instagramIcon from '../../asets/images/social-icons/instagram.svg'
 import tikTokIcon from '../../asets/images/social-icons/tiktok.svg'

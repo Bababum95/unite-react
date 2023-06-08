@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import classNames from 'classnames'
 import { Link } from 'react-router-dom';
-import { IMenuStyles, Ilink } from '../interfaces'
+import { IMenuStyles, Ilink } from '../../../core/interfaces/links.interfaces'
 
 
 interface SubMenuProps {
