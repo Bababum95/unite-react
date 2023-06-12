@@ -1,0 +1,26 @@
+.image {
+    position: absolute;
+    top: 96px;
+    right: -22px;
+    width: 659px;
+}
+
+@media screen and (max-width:1040px) {
+    .card {
+        margin-inline: 20px;
+    }
+}
+@media screen and (max-width:850px) {
+    .image {
+        width: 525px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image {
+        width: 95%;
+        position: static;
+        margin-left: 2.5%;
+        margin-top: 127px;
+    }
+}

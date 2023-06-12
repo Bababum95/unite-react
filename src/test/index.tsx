@@ -1,9 +1,7 @@
-import {useEffect, useState} from 'react'
-import { IGame } from '../core/interfaces/posts.interfaces'
+import {useEffect} from 'react'
 import { UniteService } from '../core/services/unite.service'
 
 const Test = () => {
-    const [gamesList, setGamesList] = useState<IGame[]>()
     useEffect(() => {
         const fetchPost = async () => {
             const posts = await UniteService.getTestPosts()

@@ -29,6 +29,7 @@ const GamesList = ({ postsId, heading }: GamesListProps) => {
             <div className={styles.container}>
                 {gamesList ? gamesList.map(game => (
                     <GameCard
+                        key={game.id}
                         link={game.guid.rendered}
                         imageId={game['img-game']}
                         title={game['name-game']} />

@@ -19,6 +19,7 @@ import ServerGames from "../pages/games/ServerGames";
 import NetworkGames from "../pages/games/NetworkGames";
 import SingleGames from "../pages/games/SingleGames";
 import AndroidGames from "../pages/games/AndroidGames";
+import Review from "../pages/account/outlets/review";
 
 const router = createHashRouter([
     {
@@ -45,6 +46,10 @@ const router = createHashRouter([
         path: "/account",
         element: <Account />,
         children: [
+            {
+              path: "",
+              element: <Review />,
+            },
             {
               path: "profile",
               element: <Profile />,

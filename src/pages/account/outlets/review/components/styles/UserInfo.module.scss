@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+    padding: 43px 0 55px;
+    flex-wrap: wrap;
+    gap: 26px 172px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    opacity: 0.6;
+    width: 184px;
+    margin: 0;
+}
+
+.value {
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: -0.015em;
+}

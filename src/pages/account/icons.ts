@@ -7,8 +7,9 @@ import userSquareImage from '../../asets/images/profile/UserSquare.svg'
 import moneyImage from '../../asets/images/profile/money.svg'
 import historyImage from '../../asets/images/profile/history.svg'
 import questionImage from '../../asets/images/profile/question.svg'
+import reductionImage from '../../asets/images/profile/reduction.svg'
 
 export {
     pacmanImage, waletImage, applicationImage, keyImage, tariffImage,
-    userSquareImage, moneyImage, historyImage, questionImage
+    userSquareImage, moneyImage, historyImage, questionImage, reductionImage
 }
