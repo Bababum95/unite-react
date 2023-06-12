@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unite-react/static/css/main.360e960a.css",
-    "main.js": "/unite-react/static/js/main.6c473bf1.js",
+    "main.css": "/unite-react/static/css/main.66ffd954.css",
+    "main.js": "/unite-react/static/js/main.6c401d35.js",
     "static/media/servergame.png": "/unite-react/static/media/servergame.db2826d2f5e06572b0d1.png",
     "static/media/GTA_5_Men_Assault.png": "/unite-react/static/media/GTA_5_Men_Assault.a05afe0d47abfe5f2937.png",
     "static/media/popular-game.png": "/unite-react/static/media/popular-game.d1d5f0847ee22dc248b4.png",
@@ -28,8 +28,12 @@
     "static/media/steam.png": "/unite-react/static/media/steam.5cb21d92da58f3ed3dd6.png",
     "static/media/launcher.png": "/unite-react/static/media/launcher.201ba22ad87015591d6b.png",
     "static/media/instagram-screen.png": "/unite-react/static/media/instagram-screen.28fcfacb2fe377bac387.png",
+    "static/media/legend.png": "/unite-react/static/media/legend.0394be7f93a4462a5a0c.png",
+    "static/media/titan.png": "/unite-react/static/media/titan.7ac735c76685da81c0d7.png",
     "static/media/nickname-phone.png": "/unite-react/static/media/nickname-phone.169340bbb30cc5ae8d20.png",
     "static/media/fraud-phone.png": "/unite-react/static/media/fraud-phone.fc3aad9b96dfd67d93eb.png",
+    "static/media/keeper.png": "/unite-react/static/media/keeper.e2f4bfee79b933c5eae6.png",
+    "static/media/heroy.png": "/unite-react/static/media/heroy.e4cbeba9e6ae84751983.png",
     "static/media/launcher-phone.png": "/unite-react/static/media/launcher-phone.5e0d8b55fcef807dc577.png",
     "static/media/events.png": "/unite-react/static/media/events.897b3a3aad219ffdb021.png",
     "static/media/computers.png": "/unite-react/static/media/computers.54d76e0bf52c7ec34e41.png",
@@ -64,15 +68,18 @@
     "static/media/eye.svg": "/unite-react/static/media/eye.d11cd9b20ec6c12dd4e0.svg",
     "static/media/UserSquare.svg": "/unite-react/static/media/UserSquare.e0130f1a4d2b8ada10d53bc7d6be797f.svg",
     "static/media/triangle-round-rectangle.svg": "/unite-react/static/media/triangle-round-rectangle.cc9d576327c9dc52861b3a0a67aad5cc.svg",
+    "static/media/plus.svg": "/unite-react/static/media/plus.26d65d2d0b00aaf412a3.svg",
     "index.html": "/unite-react/index.html",
+    "static/media/reduction.svg": "/unite-react/static/media/reduction.92b4a16da94f81c39f2fe877cbd99a53.svg",
     "static/media/ArrowLineUpRight.svg": "/unite-react/static/media/ArrowLineUpRight.81f22b709c649854f3e2.svg",
+    "static/media/Subtract.svg": "/unite-react/static/media/Subtract.aa1a852b8e8cbf384817.svg",
     "static/media/close-small.svg": "/unite-react/static/media/close-small.2500634010b43a0ab094.svg",
     "static/media/arow.svg": "/unite-react/static/media/arow.f44323fca18b7ea08d3b.svg",
-    "main.360e960a.css.map": "/unite-react/static/css/main.360e960a.css.map",
-    "main.6c473bf1.js.map": "/unite-react/static/js/main.6c473bf1.js.map"
+    "main.66ffd954.css.map": "/unite-react/static/css/main.66ffd954.css.map",
+    "main.6c401d35.js.map": "/unite-react/static/js/main.6c401d35.js.map"
   },
   "entrypoints": [
-    "static/css/main.360e960a.css",
-    "static/js/main.6c473bf1.js"
+    "static/css/main.66ffd954.css",
+    "static/js/main.6c401d35.js"
   ]
 }
