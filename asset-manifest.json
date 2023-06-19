@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unite-react/static/css/main.66ffd954.css",
-    "main.js": "/unite-react/static/js/main.6c401d35.js",
+    "main.css": "/unite-react/static/css/main.5ca6347d.css",
+    "main.js": "/unite-react/static/js/main.475eb10d.js",
     "static/media/servergame.png": "/unite-react/static/media/servergame.db2826d2f5e06572b0d1.png",
     "static/media/GTA_5_Men_Assault.png": "/unite-react/static/media/GTA_5_Men_Assault.a05afe0d47abfe5f2937.png",
     "static/media/popular-game.png": "/unite-react/static/media/popular-game.d1d5f0847ee22dc248b4.png",
@@ -66,6 +66,7 @@
     "static/media/tiktok.svg": "/unite-react/static/media/tiktok.79d004146bcb5e4404fd5bad70e2c41c.svg",
     "static/media/history.svg": "/unite-react/static/media/history.6ae8d57215c9d04b876d1a688135ddb6.svg",
     "static/media/eye.svg": "/unite-react/static/media/eye.d11cd9b20ec6c12dd4e0.svg",
+    "static/media/pencil.svg": "/unite-react/static/media/pencil.7b7f2167f576ba0f8fea.svg",
     "static/media/UserSquare.svg": "/unite-react/static/media/UserSquare.e0130f1a4d2b8ada10d53bc7d6be797f.svg",
     "static/media/triangle-round-rectangle.svg": "/unite-react/static/media/triangle-round-rectangle.cc9d576327c9dc52861b3a0a67aad5cc.svg",
     "static/media/plus.svg": "/unite-react/static/media/plus.26d65d2d0b00aaf412a3.svg",
@@ -73,13 +74,14 @@
     "static/media/reduction.svg": "/unite-react/static/media/reduction.92b4a16da94f81c39f2fe877cbd99a53.svg",
     "static/media/ArrowLineUpRight.svg": "/unite-react/static/media/ArrowLineUpRight.81f22b709c649854f3e2.svg",
     "static/media/Subtract.svg": "/unite-react/static/media/Subtract.aa1a852b8e8cbf384817.svg",
+    "static/media/CopySimple.svg": "/unite-react/static/media/CopySimple.c96464b2678195155f71.svg",
     "static/media/close-small.svg": "/unite-react/static/media/close-small.2500634010b43a0ab094.svg",
     "static/media/arow.svg": "/unite-react/static/media/arow.f44323fca18b7ea08d3b.svg",
-    "main.66ffd954.css.map": "/unite-react/static/css/main.66ffd954.css.map",
-    "main.6c401d35.js.map": "/unite-react/static/js/main.6c401d35.js.map"
+    "main.5ca6347d.css.map": "/unite-react/static/css/main.5ca6347d.css.map",
+    "main.475eb10d.js.map": "/unite-react/static/js/main.475eb10d.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ffd954.css",
-    "static/js/main.6c401d35.js"
+    "static/css/main.5ca6347d.css",
+    "static/js/main.475eb10d.js"
   ]
 }
