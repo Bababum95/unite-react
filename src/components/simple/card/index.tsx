@@ -1,18 +1,20 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import styles from './Card.module.scss';
+import classNames from 'classnames';
 import {UniteService} from '../../../core/services/unite.service'
 import SceletoneImage from '../../ui/sceletone/SceletoneImage';
+import styles from './Card.module.scss';
 
 interface CardProps {
     imageId: number
     title: string
-    time?: string
     link: string
     topic: string
+    time?: string
+    fullPage?: boolean
 }
 
-const Card = ({ imageId, title, time, topic, link}: CardProps) => {
+const Card = ({ imageId, title, time, topic, link, fullPage}: CardProps) => {
     const [image, setImage] = useState<string>()
     useEffect(() => {
         const fetchPosts = async () => {
@@ -22,7 +24,7 @@ const Card = ({ imageId, title, time, topic, link}: CardProps) => {
         fetchPosts()
     }, [])
     return (
-        <li className={styles.card}>
+        <li className={classNames(styles.card, {[styles.fullPage]: fullPage})}>
             <Link to={link}>
                 {image? (<img className={styles.image} src={image} alt={title} />
                 ):(

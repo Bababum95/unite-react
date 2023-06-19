@@ -5,6 +5,7 @@ import Button from '../../components/ui/Button';
 import Body from '../../containers/body';
 import styles from './Profile.module.scss';
 import Title from '../../components/ui/Title';
+import LastNews from './LastNews';
 
 
 const Account = () => {
@@ -27,7 +28,7 @@ const Account = () => {
                             </NavLink>
                         </li>
                         <li className={styles.item}>
-                            <NavLink to='profile' className={({ isActive }) => `${isActive && styles.active}`}>
+                            <NavLink to='user-info' className={({ isActive }) => `${isActive && styles.active}`}>
                                 <img src={pacmanImage} alt="packman" />
                                 <p>Информация о записи</p>
                             </NavLink>
@@ -60,6 +61,7 @@ const Account = () => {
                     <NavLink to='/' className={styles.button}>
                         <Button fullPage={true} title='Поддержка' />
                     </NavLink>
+                    <LastNews />
                 </div>
                 <div className={styles.content}>
                     <Outlet />

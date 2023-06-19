@@ -4,7 +4,7 @@ import Select from 'react-select'
 import classNames from 'classnames';
 import MainAuth from '../components/MainAuth';
 import Checkbox from '../../../components/ui/Checkbox';
-import { options } from './options';
+import { options } from '../../../asets/data/options';
 import styles from './SignUp.module.scss';
 import './select.scss'
 import Body from '../../../containers/body';

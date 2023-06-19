@@ -47,7 +47,14 @@
 }
 .content {
     max-width: 660px;
+    width: 100%;
 }
 .title {
     margin-top: 72px;
+}
+.newsContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

@@ -44,23 +44,6 @@
     }
 }
 
-.button_white {
-    background: #FFFFFF;
-    color: #18181B;
-    &:hover {
-        background: #393942;
-        color: #fff;
-    }
-}
-.button_grey {
-    background: #34323C;
-    color: #A2A2A2;
-    &:hover {
-        color: #fff;
-        background: #34323C;
-    }
-}
-
 .fullPage {
     width: 100%;
     padding: 20px;

@@ -3,7 +3,6 @@ import Home from "../pages/home";
 import SignIn from "../pages/auth/sign-in";
 import SignUp from "../pages/auth/sign-up";
 import NotFound from "../pages/404";
-import Profile from "../pages/account/outlets/Profile";
 import Account from "../pages/account";
 import Balance from "../pages/account/outlets/Balance";
 import NewsList from "../pages/news/news-list";
@@ -20,6 +19,7 @@ import NetworkGames from "../pages/games/NetworkGames";
 import SingleGames from "../pages/games/SingleGames";
 import AndroidGames from "../pages/games/AndroidGames";
 import Review from "../pages/account/outlets/review";
+import UserInfo from "../pages/account/outlets/user-info";
 
 const router = createHashRouter([
     {
@@ -51,8 +51,8 @@ const router = createHashRouter([
               element: <Review />,
             },
             {
-              path: "profile",
-              element: <Profile />,
+              path: "user-info",
+              element: <UserInfo />,
             },
             {
               path: "balance",

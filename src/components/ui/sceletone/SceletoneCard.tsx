@@ -1,10 +1,15 @@
+import classNames from 'classnames'
 import styles from './Sceletone.module.scss'
 import SceletoneImage from './SceletoneImage'
 import SceletoneString from './SceletoneString'
 
-const SceletoneCard = () => {
+interface SceletoneCardProps {
+    fullPage?: boolean
+}
+
+const SceletoneCard = ({fullPage}: SceletoneCardProps) => {
     return (
-        <li className={styles.card}>
+        <li className={classNames(styles.card, {[styles.fullPage]: fullPage})}>
             <SceletoneImage style={styles.card__image} />
             <SceletoneString style={styles.topic} />
             <SceletoneString style={styles.title_1} />
