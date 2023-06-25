@@ -1,5 +1,5 @@
 import LayoutBlock from '../../components/LayoutBlock'
-import FieldValuePair from './FieldValuePair';
+import FieldValuePair from '../../components/FieldValuePair';
 import styles from './styles/BlockWithOneString.module.scss';
 
 interface BlockWithOneStringProps {

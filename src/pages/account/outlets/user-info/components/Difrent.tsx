@@ -1,5 +1,5 @@
 import LayoutBlock from '../../components/LayoutBlock'
-import FieldValuePair from './FieldValuePair';
+import FieldValuePair from '../../components/FieldValuePair';
 import styles from './styles/Difrent.module.scss';
 
 interface DifrentProps {

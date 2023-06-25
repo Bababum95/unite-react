@@ -1,6 +1,6 @@
 import LayoutBlock from '../../components/LayoutBlock'
-import FieldValuePair from './FieldValuePair';
-import FieldValuePairWrapperWithUnderLine from './FieldValuePairWrapperWithUnderLine';
+import FieldValuePair from '../../components/FieldValuePair';
+import FieldValuePairWrapperWithUnderLine from '../../components/FieldValuePairWrapperWithUnderLine';
 import styles from './styles/PrivateInfo.module.scss';
 
 interface PrivateInfoProps {

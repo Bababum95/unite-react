@@ -1,5 +1,5 @@
-import FieldValuePair from './FieldValuePair';
-import FieldValuePairWrapper from './FieldValuePairWrapperWithUnderLine';
+import FieldValuePair from '../../components/FieldValuePair';
+import FieldValuePairWrapper from '../../components/FieldValuePairWrapperWithUnderLine';
 import styles from './styles/Clipboard.module.scss';
 
 interface ClipboardProps {

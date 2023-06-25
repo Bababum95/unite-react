@@ -20,6 +20,7 @@ import SingleGames from "../pages/games/SingleGames";
 import AndroidGames from "../pages/games/AndroidGames";
 import Review from "../pages/account/outlets/review";
 import UserInfo from "../pages/account/outlets/user-info";
+import Tariff from "../pages/account/outlets/tariff";
 
 const router = createHashRouter([
     {
@@ -57,6 +58,10 @@ const router = createHashRouter([
             {
               path: "balance",
               element: <Balance />,
+            },
+            {
+              path: "tariff",
+              element: <Tariff />,
             },
           ],
     },
